@@ -1,4 +1,4 @@
-# README GENERATOR
+# Professional Readme Generator
   ## Licensing:
     
   
@@ -12,23 +12,23 @@
 
   ## Description:
   A Brief Description of the project
-  Generates Readme information based on inputted data
+  Generates a professional readme based on user input and dynamically generates based on given info
 
   ## Installation
   How to Install:
-  Go to the repo and clone the files
+  Go to my repo and clone the repo
 
   ## Usage
   How to Use:
-  Will answer all prompts with the desired information
+  They will answer every prompt with their project info
 
   ## Contributions
   How to Contribute:
-  Contact me with any ideas with the info at the bottom
+  They can email me at the email on the bottom
 
   ## Testing 
   How to test:
-  Will need to install all the files, npm install node and then node index
+  They will download the repo, npm install node, npm install inquirer and then node index
 
   ## Licenses:
    
@@ -36,5 +36,5 @@
   ## Questions:
   Contact me with any questions:
   [GitHub](https://github.com/undefined)
-  [Email Me](https://mailto:smoshcam1@gmail.com)
+  [Email Me](https://mailto:Nelsonnoremac@gmail.com)
   
