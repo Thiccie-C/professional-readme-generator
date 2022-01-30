@@ -22,7 +22,7 @@ const questions = [
     // Brief Description of project
     {
         type: 'input',
-        name: 'Description',
+        name: 'description',
         message: 'Give a breif description of your Project (Required)',
         validate: dInput => {
             if(dInput){
@@ -36,7 +36,7 @@ const questions = [
     // How to install your Project
     {
         type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'How will users install your Project? (Required)',
         validate: iInput => {
             if(iInput) {
@@ -49,8 +49,8 @@ const questions = [
     },
     // Usage of the project
     {
-        type: 'Input',
-        name: 'Usage',
+        type: 'input',
+        name: 'usage',
         message: 'How will users use your Project? (Required)',
         validate: uInput => {
             if(uInput) {
@@ -62,8 +62,8 @@ const questions = [
     },
     // Contributions
     {
-        type: 'Input',
-        name: 'Contributions',
+        type: 'input',
+        name: 'contributions',
         message: 'How can people help contribute to this project (Required)',
         validate: cInput => {
             if(cInput) {
@@ -76,8 +76,8 @@ const questions = [
     },
     //Testing
     {
-        type: 'Input',
-        name: 'Test',
+        type: 'input',
+        name: 'test',
         message: 'How does a fellow developer go about testing your Project?(Required)',
         validate: tInput => {
             if(tInput) {
@@ -91,12 +91,12 @@ const questions = [
     {
         type: 'checkbox',
         name: 'Licenses',
-        choices: []
+        choices: ['MIT', 'GPLv3', 'Apache', 'Eclipse', 'Mozilla', 'None']
     },
     // GitHub Username
     {
         type: 'input',
-        name: 'GitHub Username',
+        name: 'gitHub',
         message: 'Please enter your GitHub Username! (Required)',
         validate: ghuInput => {
             if(ghuInput) {
@@ -110,7 +110,7 @@ const questions = [
     // Email
     {
         type: 'input',
-        name: 'Email',
+        name: 'email',
         message: 'Please enter your Email address so users can contact you! (Required)',
         validate: eInput => {
             if(eInput) {
