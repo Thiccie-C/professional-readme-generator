@@ -36,6 +36,7 @@
 
   ## Questions:
   Contact me with any questions:
-  [GitHub](https://github.com/undefined)
-  [Email Me](https://mailto:Nelsonnoremac@gmail.com)
   
+  [GitHub](https://github.com/undefined)
+  
+  [Email Me](https://mailto:Nelsonnoremac@gmail.com)
