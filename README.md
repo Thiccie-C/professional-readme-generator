@@ -2,7 +2,7 @@
   ## Licensing:
     
   ## Demo: 
-  ![Demo](code/utils/Demo.gif))
+  ![Demo](code/utils/Demo.gif)
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
