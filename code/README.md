@@ -1,7 +1,8 @@
 # Professional Readme Generator
   ## Licensing:
     
-  
+  ## Demo: 
+  ![Demo](~/utils/Demo.gif)
   ## Table of Contents
   - [Description](#description)
   - [Installation](#installation)
