@@ -1,5 +1,5 @@
 const inquirer = require("inquirer");
-const Choice = require("inquirer/lib/objects/choice");
+const fs = require('fs')
 const generateMarkdown = require("./utils/generateMarkdown")
 // TODO: Include packages needed for this application
 
@@ -91,15 +91,46 @@ const questions = [
     {
         type: 'checkbox',
         name: 'Licenses',
-        choices: ''
+        choices: []
+    },
+    // GitHub Username
+    {
+        type: 'input',
+        name: 'GitHub Username',
+        message: 'Please enter your GitHub Username! (Required)',
+        validate: ghuInput => {
+            if(ghuInput) {
+                return true;
+            } else {
+                console.log("Please enter your GitHub Username!")
+                return false;
+            }
+        }
+    },
+    // Email
+    {
+        type: 'input',
+        name: 'Email',
+        message: 'Please enter your Email address so users can contact you! (Required)',
+        validate: eInput => {
+            if(eInput) {
+                return true;
+            } else {
+                console.log('Please enter your Email address')
+                return false;
+            }
+        }
     },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {
+// }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions)
+}
 
 // Function call to initialize app
 init();
